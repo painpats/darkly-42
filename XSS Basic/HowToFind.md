@@ -4,7 +4,7 @@
 ## Méthodologie
 
 Cette faille a été trouvée en exploitant une vulnérabilité liée à un champ de saisie non validé dans une application web. 
-On a injecté du code JavaScript malveillant dans un champ de formulaire (ici dans "Name:" `<script>alert('XSS')</script>`), 
+On a injecté dans le champ de formulaire "Name:" ce code JavaScript malveillant: `<script>alert('XSS')</script>`, 
 et la vulnérabilité a été confirmée lorsqu'une alerte JavaScript a été exécutée sur la page cible.
 
 Premièrement, il a fallut changer la taille allouée pour le texte dans "Name:" afin de pouvoir entrer tout le script:
