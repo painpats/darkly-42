@@ -1,1 +1,3 @@
-/index.php?page=signin
+# Bruteforce Password
+/?page=signin
+
