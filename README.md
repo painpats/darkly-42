@@ -1,7 +1,9 @@
 # DARKLY
 
+![darkly's header](./Assets/darkly.png)
+
 # Top 10 OWASP (2021)
-Ce document liste les vulnérabilités web les plus critiques. Voici une explication de chacune :
+Ci-dessous une liste des vulnérabilités web les plus critiques ainsi que leur explications :
 
 ## 1. Broken Access Control (Contrôle d'accès insuffisant)
 
