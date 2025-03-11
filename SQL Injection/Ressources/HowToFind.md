@@ -5,7 +5,7 @@
 Si on fait 1 OR 1 on remarque que les donnees de la table s'affiche
 ![members-page](assets/members-page.png)
 
-Ducoup on pousse avec des commandes SQL et l'aide d'information_schema pour voir toutes les tables et leurs columns: "1 UNION SELECT table_name, column_name FROM information_schema.columns"
+Du coup on pousse avec des commandes SQL et l'aide d'information_schema pour voir toutes les tables et leurs columns: "1 UNION SELECT table_name, column_name FROM information_schema.columns"
 
 Puis on va chercher ddans la table qui nous interesse "users"
 
