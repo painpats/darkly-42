@@ -201,3 +201,4 @@ Ci-dessous une liste des vulnérabilités web les plus critiques ainsi que leur 
 > Une mauvaise gestion des erreurs dans les requêtes SSRF peut révéler des informations sensibles sur l’infrastructure, facilitant d’autres attaques comme le *port scanning* interne ou l’exfiltration de données.
 
 *Exemple : Utiliser un formulaire pour accéder à des services internes via une URL malveillante.*
+[x](Survey/)
