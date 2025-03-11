@@ -24,6 +24,10 @@ Ci-dessous une liste des vulnérabilités web les plus critiques ainsi que leur 
 
 *Exemple : Modifier un ID utilisateur dans l'URL pour consulter les données d'autres utilisateurs.*
 
+| Breach        | Explication      |
+| ------|-----|
+| [admin htpassword](Admin\htpasswd/) | Accès non autorisé à un fichier de protection par mot de passe |
+| [hidden file](Hidden\File/) | Accès à des fichiers cachés pouvant contenir des informations sensibles |
 
 ## 2. Cryptographic Failures (Échecs cryptographiques)
 
@@ -41,6 +45,10 @@ Ci-dessous une liste des vulnérabilités web les plus critiques ainsi que leur 
 
 > [!CAUTION]  
 > Une mauvaise gestion des clés cryptographiques (ex. stockage en dur dans le code source, transmission non sécurisée) peut permettre à un attaquant d’accéder aux données chiffrées ou de les manipuler.
+
+| Breach        | Explication      |
+| ------|-----|
+| [cookies](Cookies/) |Mauvaise gestion des cookies (ex. stockage de données sensibles non chiffrées, absence du flag Secure ou HttpOnly) |
 
 
 ## 3. Injection
@@ -62,6 +70,13 @@ Ci-dessous une liste des vulnérabilités web les plus critiques ainsi que leur 
 
 *Exemple : '; DROP TABLE users; -- dans un champ de formulaire, causant la suppression de la table.*
 
+| Breach        | Explication      |
+| ------|-----|
+| [SQL injection](SQL\Injection/) | Injection SQL classique |
+| [SQL advanced](SQL\Advanced/) | Injection SQL avancée (ex. blind SQL, time-based injections) |
+| [XSS basic](XSS\Basic/) | Injection de scripts malveillants (Cross-Site Scripting simple) |
+| [XSS advanced](XSS\Advanced/) | XSS avancé (ex. exploitation via DOM, persistant, ou dans des API JSON) |
+| [include](Include/) | Inclusion de fichiers malveillants (ex. Local File Inclusion - LFI, Remote File Inclusion - RFI) |
 
 ## 4. Insecure Design (Conception peu sécurisée)
 
@@ -82,6 +97,10 @@ Ci-dessous une liste des vulnérabilités web les plus critiques ainsi que leur 
 
 *Exemple : Une application qui permet de deviner les mots de passe avec des tentatives illimitées.*
 
+| Breach        | Explication      |
+| ------|-----|
+| [survey](Survey/) | Mauvaise conception d’un formulaire (ex. absence de validation des entrées utilisateur) |
+| [redirect](Redirect/) |  Redirections ouvertes permettant du phishing ou des attaques de type open redirect |
 
 ## 5. Security Misconfiguration (Mauvaise configuration de sécurité)
 
@@ -102,6 +121,10 @@ Ci-dessous une liste des vulnérabilités web les plus critiques ainsi que leur 
 
 *Exemple : Laisser un fichier .env accessible publiquement.*
 
+| Breach        | Explication      |
+| ------|-----|
+| [file upload](File\Upload/) | Mauvaise configuration du système permettant l’upload de fichiers malveillants |
+| [hidden file](Hidden\File/) | Présence de fichiers non sécurisés exposant des informations sensibles |
 
 ## 6. Vulnerable and Outdated Components (Composants vulnérables ou obsolètes)
 
@@ -142,6 +165,11 @@ Ci-dessous une liste des vulnérabilités web les plus critiques ainsi que leur 
 
 *Exemple : Absence de validation de session après un changement de mot de passe.*
 
+| Breach        | Explication      |
+| ------|-----|
+| [bruteforce member](Bruteforce\member/) | Attaque par force brute sur un compte utilisateur |
+| [passwd recover](Passwd\Recover/) | Vulnérabilité dans le processus de récupération de mot de passe |
+| [spoof](Spoof/) | Usurpation d’identité ou falsification de données d’authentification |
 
 ## 8. Software and Data Integrity Failures (Intégrité logicielle et des données)
 
@@ -162,6 +190,10 @@ Ci-dessous une liste des vulnérabilités web les plus critiques ainsi que leur 
 
 *Exemple : Utilisation de librairies provenant de sources non vérifiées.*
 
+| Breach        | Explication      |
+| ------|-----|
+| [redirect](Redirect/) | Manipulation d’URL permettant une redirection non sécurisée |
+| [spoof](Spoof/) | Altération de données (ex. modification de tokens, attaques sur la session) |
 
 ## 9. Security Logging and Monitoring Failures (Défaillances de journalisation et de surveillance)
 
