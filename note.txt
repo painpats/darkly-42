@@ -2,7 +2,3 @@ Charlotte:
 2 flags /robots.txt pour le whatever -> /admin et .hidden bruteforce
 1 flags curl un fichier php pour une image jpeg
 Redirect avec les reseaux sociaux (DONE)
-
-Nathan:
-1 flag passait un scipt xss en base 64 dans url
-2 Flags SQL: 1 UNION
