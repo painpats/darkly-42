@@ -37,9 +37,9 @@ Un attaquant peut récupérer un cookie et l’utiliser pour usurper une session
 Les cookies mal configurés peuvent être une **faille critique** permettant à un attaquant de prendre le contrôle d’un compte utilisateur ou d’accéder à des données sensibles. 
 
 **Recommandations pour sécuriser les cookies** :
-✔️ **Toujours utiliser `HttpOnly`** pour empêcher l’accès via JavaScript.
-✔️ **Activer `Secure`** pour empêcher la transmission en clair sur HTTP.
-✔️ **Configurer `SameSite=Strict`** pour limiter les attaques CSRF.
-✔️ **Limiter la durée de vie des cookies** pour réduire le risque d’exploitation en cas de vol.
+- **Toujours utiliser `HttpOnly`** pour empêcher l’accès via JavaScript.
+- **Activer `Secure`** pour empêcher la transmission en clair sur HTTP.
+- **Configurer `SameSite=Strict`** pour limiter les attaques CSRF.
+- **Limiter la durée de vie des cookies** pour réduire le risque d’exploitation en cas de vol.
 
-**Un simple cookie mal protégé peut suffire pour compromettre une session. Vérifiez vos configurations !**
+**Un simple cookie mal protégé peut suffire pour compromettre une session !**
