@@ -27,7 +27,7 @@ Ci-dessous une liste des vulnérabilités web les plus critiques ainsi que leur 
 | Breach        | Explication      |
 | ------|-----|
 | [admin htpassword](Admin%20htpasswd/) | Accès non autorisé à un fichier de protection par mot de passe |
-| [hidden file](Hidden\File/) | Accès à des fichiers cachés pouvant contenir des informations sensibles |
+| [hidden file](Hidden%20File/) | Accès à des fichiers cachés pouvant contenir des informations sensibles |
 
 ## 2. Cryptographic Failures (Échecs cryptographiques)
 
@@ -72,10 +72,10 @@ Ci-dessous une liste des vulnérabilités web les plus critiques ainsi que leur 
 
 | Breach        | Explication      |
 | ------|-----|
-| [SQL injection](SQL\Injection/) | Injection SQL classique |
-| [SQL advanced](SQL\Advanced/) | Injection SQL avancée (ex. blind SQL, time-based injections) |
-| [XSS basic](XSS\Basic/) | Injection de scripts malveillants (Cross-Site Scripting simple) |
-| [XSS advanced](XSS\Advanced/) | XSS avancé (ex. exploitation via DOM, persistant, ou dans des API JSON) |
+| [SQL injection](SQL%20Injection/) | Injection SQL classique |
+| [SQL advanced](SQL%20Advanced/) | Injection SQL avancée (ex. blind SQL, time-based injections) |
+| [XSS basic](XSS%20Basic/) | Injection de scripts malveillants (Cross-Site Scripting simple) |
+| [XSS advanced](XSS%20Advanced/) | XSS avancé (ex. exploitation via DOM, persistant, ou dans des API JSON) |
 | [include](Include/) | Inclusion de fichiers malveillants (ex. Local File Inclusion - LFI, Remote File Inclusion - RFI) |
 
 ## 4. Insecure Design (Conception peu sécurisée)
@@ -123,8 +123,8 @@ Ci-dessous une liste des vulnérabilités web les plus critiques ainsi que leur 
 
 | Breach        | Explication      |
 | ------|-----|
-| [file upload](File\Upload/) | Mauvaise configuration du système permettant l’upload de fichiers malveillants |
-| [hidden file](Hidden\File/) | Présence de fichiers non sécurisés exposant des informations sensibles |
+| [file upload](File%20Upload/) | Mauvaise configuration du système permettant l’upload de fichiers malveillants |
+| [hidden file](Hidden%20File/) | Présence de fichiers non sécurisés exposant des informations sensibles |
 
 ## 6. Vulnerable and Outdated Components (Composants vulnérables ou obsolètes)
 
@@ -167,8 +167,8 @@ Ci-dessous une liste des vulnérabilités web les plus critiques ainsi que leur 
 
 | Breach        | Explication      |
 | ------|-----|
-| [bruteforce member](Bruteforce\member/) | Attaque par force brute sur un compte utilisateur |
-| [passwd recover](Passwd\Recover/) | Vulnérabilité dans le processus de récupération de mot de passe |
+| [bruteforce member](Bruteforce%20member/) | Attaque par force brute sur un compte utilisateur |
+| [passwd recover](Passwd%20Recover/) | Vulnérabilité dans le processus de récupération de mot de passe |
 | [spoof](Spoof/) | Usurpation d’identité ou falsification de données d’authentification |
 
 ## 8. Software and Data Integrity Failures (Intégrité logicielle et des données)
