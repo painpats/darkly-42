@@ -1,4 +1,3 @@
 Charlotte:
-2 flags /robots.txt pour le whatever -> /admin et .hidden bruteforce
+1 flags /robots.txt pour le .hidden bruteforce
 1 flags curl un fichier php pour une image jpeg
-Redirect avec les reseaux sociaux (DONE)
