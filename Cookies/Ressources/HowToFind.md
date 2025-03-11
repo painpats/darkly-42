@@ -2,7 +2,7 @@
 
 ## Méthodologie
 
-Nous avons inspecté l'état des Cookies dans Application et avons trouvé un hash lié à `I_am_admin`
+Nous avons <ins>inspecté</ins> l'état des <ins>Cookies</ins> dans <ins>Application</ins> et avons trouvé un hash lié à `I_am_admin`
 
 ![cookies-inspect](Assets/cookies-inspect.png)
 
@@ -14,7 +14,7 @@ En voyant que le hash correspondait à `false` nous avons décidé de le changer
 
 ![cookies-true](Assets/cookies-true.png)
 
-En rechargeant la page, bingo voici le flag !
+Et en rechargeant la page, bingo voici le flag !
 
 ![cookies-flag](Assets/cookies-flag.png)
 
