@@ -26,7 +26,7 @@ Ci-dessous une liste des vulnérabilités web les plus critiques ainsi que leur 
 
 | Breach        | Explication      |
 | ------|-----|
-| [admin htpassword](Admin\htpasswd/) | Accès non autorisé à un fichier de protection par mot de passe |
+| [admin htpassword](Admin%20htpasswd/) | Accès non autorisé à un fichier de protection par mot de passe |
 | [hidden file](Hidden\File/) | Accès à des fichiers cachés pouvant contenir des informations sensibles |
 
 ## 2. Cryptographic Failures (Échecs cryptographiques)
