@@ -9,7 +9,7 @@ Include ✅
 Passwd Recover ✅
 Redirect ❌
 Spoof ✅
-SQL Advanced ❌
+SQL Advanced ✅
 SQL Injection ✅
 Survey ❌
 XSS Advanced ✅

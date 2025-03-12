@@ -3,7 +3,7 @@
 
 ## Méthodologie
 Si l'on effectue 1 OR 1, on remarque que les données de la table s'affichent :
-![members-page](assets/members-page.png)
+![members-page](Assets/members-page.png)
 
 On en profite alors pour pousser plus loin en utilisant des commandes SQL et information_schema afin d'afficher toutes les tables et leurs colonnes :
 
@@ -12,7 +12,7 @@ On en profite alors pour pousser plus loin en utilisant des commandes SQL et inf
 Ensuite, on recherche les données dans la table qui nous intéresse, à savoir "users" 
 
 1 UNION SELECT Commentaire, countersign FROM users
-![flag-to-decrypt](assets/flagToDecrypt.png)
+![flag-to-decrypt](Assets/flagToDecrypt.png)
 
 ## Détails de la faille
 La faille d’injection SQL permet à un attaquant d’exécuter des requêtes SQL malveillantes sur une base de données en exploitant des entrées utilisateur mal filtrées.

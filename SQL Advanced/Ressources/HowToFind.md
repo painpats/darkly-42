@@ -3,10 +3,19 @@
 /index.php?page=searchimg
 
 ## Méthodologie
+Apres avoir decouvert la premiere faille SQL on voit qu'il y a un champ du meme type avec la commande SQL dans l'URL et que cela a le meme fonctionnement
 
+On fouille donc et on voit "Hack me ?"
+
+![sql-page](Assets/hack.png)
+
+Apres on affiche toute les tables et colonnes:
 1 UNION SELECT table_name, column_name FROM information_schema.columns
+
+Puis on va regarder dans la tables "list_images"
 1 UNION SELECT title, comment FROM list_images 
 
+![flag](Assets/flag.png)
 ## Détails de la faille
 
 La faille d’injection SQL permet à un attaquant d’exécuter des requêtes SQL malveillantes sur une base de données en exploitant des entrées utilisateur mal filtrées.
