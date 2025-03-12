@@ -12,5 +12,5 @@ Spoof ✅
 SQL Advanced ❌
 SQL Injection ✅
 Survey ❌
-XSS Advanced ❌
+XSS Advanced ✅
 XSS Basic ✅
