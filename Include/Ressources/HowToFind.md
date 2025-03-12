@@ -1,31 +1,27 @@
-# Découverte de la faille Include
+# Include
 
 ## Méthodologie
 
-Cette faille a été trouvée en exploitant la mauvaise configuration du serveur, on a utilisé une technique 
-de *traversée de répertoire* pour y accéder, et on a confirmé la vulnérabilité en récupérant des fichiers 
-sensibles `/etc/passwd`.
+Nous avons tenté d'exploiter cette faille en modifiant un paramètre d'URL jusqu'à trouver le fichier local `/etc/passwd` :
 
-![htpasswd-breach](assets/htpasswd-flag.png)
+![include-flag](Assets/include-flag.png)
 
 ## Détails de la faille
+L’inclusion de fichiers non sécurisée est une vulnérabilité qui permet à un attaquant d’inclure des fichiers arbitraires dans une application web. Cela peut mener à :
+- **Local File Inclusion (LFI)** : Inclusion de fichiers locaux du serveur (ex: `/etc/passwd`, `config.php`).
+- **Remote File Inclusion (RFI)** : Inclusion de fichiers distants hébergés sur un serveur contrôlé par l’attaquant.
 
-La faille **admin htpasswd** exploite une vulnérabilité qui permet à un attaquant d'exploiter un 
-fichier `.htpasswd` mal configuré pour accéder à des fichiers système sensibles, notamment le fichier 
-**/etc/passwd** ici sous Linux.
 
-Les fichiers `.htpasswd` sont utilisés pour protéger les pages web avec un mot de passe. Cependant, 
-si un fichier `.htpasswd` est mal configuré ou exposé publiquement, un attaquant peut accéder directement 
-aux zones protégées de l'application en accédant au fichier.
+## Type de faille
+- **Vulnérabilité** : Inclusion de fichiers non sécurisée (LFI/RFI).
+- **Impact** : Lecture de fichiers sensibles, exécution de code arbitraire, prise de contrôle du serveur.
 
-### Type de faille
-
-- **Vulnérabilité** : Accès non autorisé via un fichier `.htpasswd` exposé.
-- **Impact** : Un attaquant peut obtenir les informations d'identification d'administrateur, ce qui lui permet
-de compromettre totalement le site web ou l'application.
 
 ## Conclusion
+Les attaques LFI/RFI sont **extrêmement dangereuses**, car elles permettent un accès non autorisé à des fichiers critiques ou l’exécution de scripts malveillants.
 
-Cette faille met en évidence l'importance de bien gérer les fichiers de configuration et de contrôler l'accès 
-aux informations sensibles. Il est crucial de vérifier régulièrement la sécurité des systèmes et de mettre en 
-place des contrôles d'accès appropriés.
+**Recommandations pour sécuriser les inclusions** :
+- **Utiliser des chemins absolus** et éviter les variables utilisateur dans `include()` / `require()`.
+- **Restreindre les fichiers accessibles** avec une **whitelist**.
+- **Désactiver `allow_url_include`** pour empêcher les RFI.
+- **Échapper et valider les entrées utilisateur** avant leur utilisation.
