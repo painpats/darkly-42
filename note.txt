@@ -2,12 +2,12 @@ README:
 
 Admin htpasswd ✅
 Bruteforce member ✅
-Cookies ❌
+Cookies ✅
 File Upload ❌
 Hidden File ❌
 Include ✅
 Passwd Recover ✅
-Redirect ❌
+Redirect ✅
 Spoof ✅
 SQL Advanced ✅
 SQL Injection ✅
