@@ -10,10 +10,7 @@ Puis on est allé voir ce qu'il se passait vers `/.hidden` :
 
 ![/.hidden](Assets/hidden.png)
 
-On a ensuite choisi de créer un script qui recherche un potentiel **flag** dans les README de chacun des fichiers :
-
-![hidden-flag](Assets/hidden-flag.png)
-
+On a ensuite choisi de créer un script qui recherche un potentiel **flag** dans les README de chacun des fichiers.
 
 ## Détails de la faille
 Les fichiers cachés peuvent contenir des informations sensibles accessibles par un attaquant si :

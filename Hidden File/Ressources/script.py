@@ -22,7 +22,7 @@ def recursive(url):
                 exit()
         else:
             recursive(url + link)
-        time.sleep(0.001)
+        time.sleep(0.002)
 
 def main(ip):
     url = "http://" + ip + "/.hidden/"
