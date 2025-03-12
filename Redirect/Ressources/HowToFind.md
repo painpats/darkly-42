@@ -11,11 +11,14 @@ On a donc essayé de changer le lien vers instagram en mettant autre chose :
 
 ![redirect-inspectafter](Assets/redirect-inspect-after.png)
 
-Et en recliquant sur l'icone 
+Et en recliquant sur l'icone, bingo !
+
+![redirect-flag](Assets/redirect-flag.png)
+
 
 ## Détails de la faille
 Les redirections non sécurisées permettent à un attaquant de rediriger un utilisateur vers un site malveillant en exploitant une URL vulnérable. Cela peut être dû à :
-- **L’acceptation d’entrées utilisateur non validées** dans des paramètres d’URL (ex: `?redirect=http://malicious.com`).
+- **L’acceptation d’entrées utilisateur non validées** dans des paramètres d’URL.
 - **L’absence de restrictions** sur les destinations de redirection.
 - **L’utilisation de liens trompeurs** pour du phishing.
 
