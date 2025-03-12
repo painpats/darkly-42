@@ -3,7 +3,7 @@ README:
 Admin htpasswd ✅
 Bruteforce member ✅
 Cookies ✅
-File Upload ❌
+File Upload ✅
 Hidden File ❌
 Include ✅
 Passwd Recover ✅
@@ -11,6 +11,6 @@ Redirect ✅
 Spoof ✅
 SQL Advanced ✅
 SQL Injection ✅
-Survey ❌
+Survey ✅
 XSS Advanced ✅
 XSS Basic ✅
