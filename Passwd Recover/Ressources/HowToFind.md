@@ -4,7 +4,7 @@
 ## Méthodologie
 
 Cette faille est présente sur la page de récupération de mot de passe. Il n'y a pas de champ pour saisir son adresse e-mail. En inspectant le code de la page, on remarque que l'adresse e-mail est inscrite en dur dans le front-end. Il suffit alors de la modifier pour obtenir le flag.
-![recover-page](../../Assets/recover-page.png)
+![recover-page](Assets/recover-page.png)
 
 ## Détails de la faille
 La faille d’exposition d’informations sensibles se trouve sur la page de récupération de mot de passe.

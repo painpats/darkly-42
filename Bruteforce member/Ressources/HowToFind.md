@@ -4,11 +4,11 @@
 ## Méthodologie
 
 Cette faille a été découverte lors d'une tentative de connexion sur le site. On remarque que le nom d'utilisateur et le mot de passe sont présents dans la requête URL, ce qui facilite les attaques par force brute via des requêtes automatisées.
-![login-page](../../Assets/login-page.png)
-![login-query](../../Assets/login-query.png)
+![login-page](Assets/login-page.png)
+![login-query](Assets/login-query.png)
 
 En exécutant un programme de force brute avec le nom d'utilisateur admin et en testant les mots de passe les plus courants, le programme a révélé que le mot de passe était `shadow`.
-![flag](../../Assets/bruteforce-flag.png)
+![flag](Assets/bruteforce-flag.png)
 
 
 ## Détails de la faille

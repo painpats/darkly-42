@@ -8,10 +8,10 @@ On a injecté dans le champ de formulaire "Name:" ce code JavaScript malveillant
 et la vulnérabilité a été confirmée lorsqu'une alerte JavaScript a été exécutée sur la page cible.
 
 Premièrement, il a fallut changer la taille allouée pour le texte dans "Name:" afin de pouvoir entrer tout le script:
-![XSS-inspect](../Assets/xss-inspect.png)
+![XSS-inspect](Assets/xss-inspect.png)
 
 Enfin, nous avons mit le script dans "Name:" et avons rempli le champ "Message:" pour finalement trouver cette faille:
-![XSS-breach](../Assets/xss-flag.png)
+![XSS-breach](Assets/xss-flag.png)
 
 ## Détails de la faille
 

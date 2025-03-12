@@ -4,12 +4,12 @@
 ## Méthodologie
 
 Cette faille est présente sur la page ci-dessus. En inspectant le code JavaScript de la page, on remarque des commentaires indiquant que l'utilisateur doit provenir de l'adresse `https://www.nsa.gov/`
-![redirect-page](../../Assets/redirect-page.png)
+![redirect-page](Assets/redirect-page.png)
 
 Cependant, ajouter simplement un en-tête `Referer: https://www.nsa.gov/` dans la requête ne suffit pas. En explorant davantage la page, un autre commentaire caché révèle qu'il est nécessaire d'utiliser un navigateur personnalisé nommé `ft_bornToSec`.
 
 Grâce à l'utilisation d'un plugin, il est alors possible de configurer le Referer et d’émuler le navigateur `ft_bornToSec`, ce qui permet de récupérer le flag.
-![redirect-browser](../../Assets/redirect-browser.png)
+![redirect-browser](Assets/redirect-browser.png)
 
 ## Détails de la faille
 

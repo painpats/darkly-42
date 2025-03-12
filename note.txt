@@ -1,3 +1,16 @@
-Charlotte:
-1 flags /robots.txt pour le .hidden bruteforce
-1 flags curl un fichier php pour une image jpeg
+README:
+
+Admin htpasswd ✅
+Bruteforce member ✅
+Cookies ❌
+File Upload ❌
+Hidden File ❌
+Include ✅
+Passwd Recover ✅
+Redirect ❌
+Spoof ✅
+SQL Advanced ❌
+SQL Injection ✅
+Survey ❌
+XSS Advanced ❌
+XSS Basic ✅

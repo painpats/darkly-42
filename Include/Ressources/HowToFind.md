@@ -6,7 +6,7 @@ Cette faille a été trouvée en exploitant la mauvaise configuration du serveur
 de *traversée de répertoire* pour y accéder, et on a confirmé la vulnérabilité en récupérant des fichiers 
 sensibles `/etc/passwd`.
 
-![htpasswd-breach](../../Assets/htpasswd-flag.png)
+![htpasswd-breach](assets/htpasswd-flag.png)
 
 ## Détails de la faille
 
