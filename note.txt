@@ -11,6 +11,6 @@ Redirect ✅
 Spoof ✅
 SQL Advanced ✅
 SQL Injection ✅
-Survey ❌
+Survey ✅
 XSS Advanced ✅
 XSS Basic ✅
