@@ -2,7 +2,7 @@ README:
 
 Admin htpasswd ✅
 Bruteforce member ✅
-Cookies ❌
+Cookies ✅
 File Upload ❌
 Hidden File ❌
 Include ✅
