@@ -2,7 +2,7 @@
 
 ![darkly's header](./Assets/darkly-125.png)
 
-Mate: **nlocusso**
+Mate: [**nlocusso**](https://github.com/nlocussol)
 
 Score: **125%**
 
