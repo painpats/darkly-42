@@ -1,10 +1,10 @@
 # DARKLY
 
-![darkly's header](./Assets/darkly.png)
+![darkly's header](./Assets/darkly-125.png)
 
 Mate: **nlocusso**
 
-Score: **%**
+Score: **125%**
 
 
 # Top 10 OWASP (2021)
